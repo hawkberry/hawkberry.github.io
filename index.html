@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Hawk Berry's Open Source Projects</title>
+  <meta name="description" content="Support the continued development of Hawk Berry's open-source software projects through GitHub Sponsors or cryptocurrency donations.">
+  <meta name="author" content="Hawk Berry">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://support.hawkberry.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hawk Berry">
+  <meta property="og:title" content="Support Hawk Berry's Open Source Projects">
+  <meta property="og:description" content="Support the continued development of Hawk Berry's open-source software projects through GitHub Sponsors or cryptocurrency donations.">
+  <meta property="og:url" content="https://support.hawkberry.com/">
+  <meta property="og:image" content="https://hawkberry.github.io/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Support Hawk Berry's Open Source Projects">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Support Hawk Berry's Open Source Projects">
+  <meta name="twitter:description" content="Support the continued development of Hawk Berry's open-source software projects through GitHub Sponsors or cryptocurrency donations.">
+  <meta name="twitter:image" content="https://hawkberry.github.io/social-preview.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="container">
+    <h1>Support <span>Hawk Berry's</span> Open Source Projects</h1>
+    <p class="lead">
+      Thank you for supporting the development and maintenance of my 
+      open-source software. Donations and sponsorships are completely 
+      optional, but they help fund continued development, documentation, 
+      testing, maintenance, and future open-source projects.
+    </p>
+  </div>
+</header>
+<main class="container">
+  <section id="support">
+    <h2>One-Time Support</h2>
+    <div class="card">
+      <h3>GitHub Sponsors</h3>
+      <p>
+        GitHub Sponsors supports both recurring and one-time
+        contributions.
+      </p>
+      <p>
+        <a class="button" href="https://github.com/sponsors/hawkberry" target="_blank" rel="noopener noreferrer">
+          GitHub Sponsors
+        </a>
+      </p>
+      <hr>
+      <h3>Cryptocurrency</h3>
+      <p>
+        If you prefer cryptocurrency, you can use any of the addresses
+        below.
+      </p>
+      <div class="crypto">
+        <div class="crypto-item">
+          <div class="crypto-header">
+            <strong>Bitcoin (BTC)</strong>
+          </div>
+          <code id="btc-address">
+            1CL1hi1ggj7pN1CqY9GQfQc5GnjvsErQ4v
+          </code>
+          <button class="copy-btn" data-copy="btc-address">
+            Copy
+          </button>
+        </div>
+        <div class="crypto-item">
+          <div class="crypto-header">
+            <strong>Bitcoin Cash (BCH)</strong>
+          </div>
+          <code id="bch-address">
+            qp7yrhmdkxjpezqtylyvmdht96vyh5yk9q2rz7fw0r
+          </code>
+          <button class="copy-btn" data-copy="bch-address">
+            Copy
+          </button>
+        </div>
+        <div class="crypto-item">
+          <div class="crypto-header">
+            <strong>Ethereum (ETH)</strong>
+          </div>
+          <code id="eth-address">
+            0x7c8b31675bdbb3b8b8fa6050a2d684d55706984d
+          </code>
+          <button class="copy-btn" data-copy="eth-address">
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Supported Projects</h2>
+    <div class="card">
+      <ul class="project-list">
+        <li>
+          <strong>finra-py</strong><br>
+          <a href="https://github.com/hawkberry/finra-py" target="_blank" rel="noopener noreferrer">
+            <strong>GitHub Repository</strong>
+          </a>
+          &nbsp;•&nbsp;
+          <a href="https://finra-py.readthedocs.io/" target="_blank" rel="noopener noreferrer">
+            <strong>Documentation</strong>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="faq">
+    <h2>FAQ</h2>
+    <div class="card">
+      <h3>Are donations required?</h3>
+      <p>
+        No. All projects remain open source and freely available.
+        Donations and sponsorship simply help support continued 
+        development and maintenance.
+      </p>
+      <h3>Does support include consulting?</h3>
+      <p>
+        No. Donations and sponsorship help fund open-source 
+        development and do not include consulting services.
+        If you're looking for consulting related to a project, please
+        see that project's documentation for consulting information.
+      </p>
+    </div>
+  </section>
+  <section id="other-links">
+    <h2>Other Links</h2>
+    <div class="card">
+      <ul class="project-list">
+        <li>
+          <a href="https://hawkberry.com" target="_blank" rel="noopener noreferrer">
+            <strong>Homepage</strong><br>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p> &copy; 2026 Hawk Berry </p>
+    <p>
+      This site supports open-source projects released under their respective licenses.
+      <br>For <strong>finra-py</strong>, this is the 
+      <a href="https://github.com/hawkberry/finra-py/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+        MIT License
+      </a>.
+    </p>
+  </div>
+</footer>
+<script>
+(() => {
+  const buttons = document.querySelectorAll(".copy-btn");
+  buttons.forEach((button) => {
+    button.addEventListener("click", async () => {
+      const id = button.dataset.copy;
+      const text = document.getElementById(id).textContent.trim();
+      try {
+        await navigator.clipboard.writeText(text);
+        const original = button.textContent;
+        button.textContent = "Copied!";
+        setTimeout(() => {
+          button.textContent = original;
+        }, 1500);
+      } catch (err) {
+        alert("Unable to copy address.");
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
+

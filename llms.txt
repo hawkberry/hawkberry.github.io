@@ -1,0 +1,18 @@
+# Hawk Berry's Open Source Support
+
+> Official support site for Hawk Berry's open-source software projects.
+
+This site provides support information, funding options, and project links for Hawk Berry's open-source software.
+
+## Projects
+
+- [`finra-py`](https://github.com/hawkberry/finra-py): Open-source Python client for the FINRA API Platform.
+
+## Documentation
+
+- [`finra-py` Documentation](https://finra-py.readthedocs.io/): User guide, API reference, examples, and consulting information.
+
+## Support
+
+- [GitHub Sponsors](https://github.com/sponsors/hawkberry): Support ongoing open-source development.
+- [Support Page](https://support.hawkberry.com): Funding options, cryptocurrency addresses, and project support information.
