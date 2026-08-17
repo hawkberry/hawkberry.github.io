@@ -1,7 +1,7 @@
-# Hawk Berry Open Source Support
+# Hawk Berry's Open Source Projects
 
-This repository contains the static GitHub Pages site for supporting Hawk Berry's open-source projects.
+This repository contains the static GitHub Pages site for Hawk Berry's open-source projects.
 
-The site provides information about supported projects and ways to support their continued development through [GitHub Sponsors](https://github.com/sponsors/hawkberry) and cryptocurrency donations.
+The site provides information about open-source projects and ways to support their continued development through [GitHub Sponsors](https://github.com/sponsors/hawkberry) and cryptocurrency donations.
 
 The site is published at [hawkberry.github.io](https://hawkberry.github.io/).
