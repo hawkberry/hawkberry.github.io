@@ -10,7 +10,7 @@ This site provides support information, funding options, and project links for H
 
 ## Documentation
 
-- [`finra-py` Documentation](https://finra.hawkberry.com/en/latest/): User guide, API reference, examples, and consulting information.
+- [`finra-py` Documentation](https://finra.hawkberry.com/): User guide, API reference, examples, and consulting information.
 
 ## Support
 

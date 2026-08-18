@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://support.hawkberry.com/sitemap.xml
