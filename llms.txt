@@ -6,7 +6,7 @@ This site provides support information, funding options, and project links for H
 
 ## Projects
 
-- [`finra-py`](https://github.com/hawkberry/finra-py): Open-source Python client for the FINRA API Platform.
+- [`finra-py`](https://github.com/hawkberry/finra-py/): Open-source Python client for the FINRA API Platform.
 
 ## Documentation
 
